@@ -1,0 +1,35 @@
+#start-button {
+    cursor: pointer;
+    border: 0;
+    user-select: none;
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    height: 29px;
+    min-width: 80px;
+    outline: 0;
+    padding: 0 8px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 0;
+    color: #fff;
+}
+
+#start-button:hover {
+    cursor: pointer;
+    background-color: #5a8fe6;
+    border: 0;
+}
+
